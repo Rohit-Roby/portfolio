@@ -6,6 +6,7 @@ A premium, modern portfolio website featuring a sophisticated dark theme with go
 
 ## 🌟 Features
 
+- **Custom Favicon** with golden RR logo matching the theme
 - **Premium Dark Theme** with golden accents and flowing wave animations
 - **Fully Responsive** design for all devices
 - **Smooth Animations** with scroll-reveal effects
