@@ -57,7 +57,7 @@ port/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/Rohit-Roby/portfolio.git
 ```
 
 2. Open `index.html` in your browser:
