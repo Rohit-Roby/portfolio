@@ -1,112 +1,46 @@
-# Portfolio Website - Rohit Roby
+# Rohit Roby — Data Engineering & Applied AI Portfolio
 
-A premium, modern portfolio website featuring a sophisticated dark theme with golden accents, showcasing AI/ML expertise and professional experience.
+A responsive, accessible, static portfolio that highlights independently documented cloud data engineering, ML engineering and quantitative analytics repositories.
 
-![Portfolio Preview](theme.jpg)
+## Highlights
 
-## 🌟 Features
+- Clear data-engineering positioning rather than a generic technology list.
+- Featured projects link directly to their GitHub source repositories.
+- Responsive dark visual system, semantic HTML, keyboard focus states and reduced-motion support.
+- Search metadata, social sharing tags and a mobile navigation menu.
+- Static HTML, CSS and vanilla JavaScript: no build chain, credentials or server required.
 
-- **Custom Favicon** with golden RR logo matching the theme
-- **Premium Dark Theme** with golden accents and flowing wave animations
-- **Fully Responsive** design for all devices
-- **Smooth Animations** with scroll-reveal effects
-- **Interactive Elements** including 3D card tilts and micro-animations
-- **SEO Optimized** with proper meta tags and semantic HTML
-- **Performance Optimized** with modern JavaScript techniques
-- **Accessible** with keyboard navigation and ARIA labels
+## Featured work
 
-## 🚀 Live Demo
+1. [UK Crime Data Pipeline](https://github.com/Rohit-Roby/uk-crime-data-pipeline) — Python, Google Cloud, BigQuery, dbt, Cloud Run, CI/CD and Power BI.
+2. [Text-to-3D ML Data Platform](https://github.com/Rohit-Roby/text-to-3d-ml-platform) — text-conditioned 3D generation with an offline smoke-test path.
+3. [Black–Scholes Greeks Dashboard](https://github.com/Rohit-Roby/BlackScholes-Greeks-Dashboard) — FastAPI options analytics and interactive visualisation.
 
-Visit the live website: [Add your deployed URL here]
+Descriptions are intended to reflect each project's README; they do not imply deployed public demo URLs unless verified.
 
-## 💻 Technologies Used
+## Preview locally
 
-- **HTML5** - Semantic markup
-- **CSS3** - Custom properties, Grid, Flexbox, Animations
-- **JavaScript** - Intersection Observer, Smooth Scroll, Interactive features
-- **Google Fonts** - Inter font family
+Open `index.html` in a browser, or run from this folder:
 
-## 📂 Project Structure
-
-```
-port/
-├── index.html          # Main HTML file
-├── styles.css          # Complete CSS design system
-├── script.js           # Interactive features and animations
-├── RESUME.md          # Resume content source
-├── theme.jpg          # Design theme reference
-└── README.md          # This file
-```
-
-## 🎨 Design Highlights
-
-- **Dark sophisticated theme** with deep blacks (#0a0a0a)
-- **Golden accents** (#f4c430) for CTAs and highlights
-- **Flowing wave patterns** as decorative SVG elements
-- **Glassmorphism effects** on elevated cards
-- **Premium typography** using Inter font
-- **Smooth gradients** and transitions throughout
-
-## 📱 Responsive Breakpoints
-
-- **Desktop**: 1200px and above
-- **Tablet**: 768px - 1199px
-- **Mobile**: Below 768px
-
-## 🛠️ Local Development
-
-1. Clone the repository:
 ```bash
-git clone https://github.com/Rohit-Roby/portfolio.git
+python -m http.server 8000
 ```
 
-2. Open `index.html` in your browser:
-```bash
-# Windows
-start index.html
+Then visit http://localhost:8000.
 
-# macOS
-open index.html
+## Deploy
 
-# Linux
-xdg-open index.html
-```
+In repository **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)` and save. Your repository Pages URL will normally be `https://Rohit-Roby.github.io/portfolio/`. Alternatively deploy with Netlify or Vercel as a static website.
 
-No build process required - it's pure HTML, CSS, and JavaScript!
+> This repository is currently a separate site from `Rohit-Roby.github.io`. Deploying it does not automatically replace the user-site repository.
 
-## 🌐 Deployment
+## Maintenance
 
-This portfolio can be easily deployed to:
+- Edit `index.html` to update project descriptions, links and contact details.
+- Change design tokens in the `:root` block of `styles.css`.
+- Keep project claims grounded in verified implementations; refresh descriptions when repos change.
+- Avoid including private addresses, API keys, phone numbers, or client-confidential details.
 
-- **GitHub Pages**: Enable Pages in repository settings
-- **Netlify**: Drag and drop the folder or connect your repo
-- **Vercel**: Import your GitHub repository
-- **Any static hosting**: Upload all files
+## License
 
-### GitHub Pages Quick Deploy
-
-1. Push your code to GitHub
-2. Go to Settings → Pages
-3. Select branch: `main`
-4. Click Save
-5. Your site will be live at `https://yourusername.github.io/portfolio`
-
-## 📧 Contact
-
-- **Email**: rohitroby1208@gmail.com
-- **LinkedIn**: [linkedin.com/in/rohitroby](https://www.linkedin.com/in/rohitroby)
-- **Location**: Kerala, India
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgments
-
-- Design inspiration from modern web design trends
-- Google Fonts for the beautiful Inter typeface
-- All the open-source tools and resources used
-
----
-
-**Built with ❤️ and passion for modern web design**
+Site content and design © Rohit Roby. Third-party projects and dependencies retain their own licenses.
